@@ -1,0 +1,18 @@
+html {
+  direction: rtl;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.938);
+}
+
+.container {
+  background-image: url(/images/background.webp) !important;
+  background-position: bottom;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+* {
+  color: white;
+}
