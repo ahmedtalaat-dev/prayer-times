@@ -62,7 +62,7 @@ prayer-times/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/prayer-times.git
+git clone https://github.com/ahmedtalaat-dev/prayer-times.git
 ```
 
 2. Navigate into the project folder:
