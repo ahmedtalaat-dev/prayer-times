@@ -1,78 +1,12 @@
-# 🕌 Prayer Times
+# React + Vite
 
-A **React** web application built with **Vite** and styled using **Material UI (MUI)**.  
-The app displays **Islamic prayer times** for different cities in Egypt in a clean and responsive interface.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Features
-- ✅ Display daily Islamic prayer times (Fajr, Dhuhr, Asr, Maghrib, Isha)  
-- ✅ Countdown timer to the next prayer  
-- ✅ Select your city from a dropdown menu  
-- ✅ Built with **React + Vite** for fast performance  
-- ✅ Modern and responsive design using **Material UI**  
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
----
+## Expanding the ESLint configuration
 
-## 🛠️ Technologies Used
-- **React** – Frontend library for building UI  
-- **Vite** – Fast development and build tool  
-- **Material UI (MUI)** – React components and styling  
-- **Axios** – Fetching prayer times from API  
-- **Moment.js** – Time formatting and countdown  
-- **JavaScript (ES6+)** – Logic and functionality  
-
----
-
-## 📂 Project Structure
-
-```text
-prayer-times/
-├── public/
-│   ├── images/
-│   │   ├── background.webp
-│   │   ├── Fajr.webp
-│   │   ├── Dhuhr.webp
-│   │   ├── Asr.webp
-│   │   ├── Maghrib.webp
-│   │   └── Isha.webp
-│   └── index.html
-├── src/
-│   ├── components/
-│   │   ├── PrayerCard.jsx
-│   │   └── MainContent.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── App.css
-├── package.json
-├── vite.config.js
-└── README.md
-```
-
-
-
-## ⚙️ Installation & Setup
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/ahmedtalaat-dev/prayer-times.git
-```
-
-2. Navigate into the project folder:
-
-```bash
-cd prayer-times
-```
-
-3. Install dependencies:
-
-```bash
-npm install
-```
-
-4. Run the development server:
-
-```bash
-npm run dev
-```
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
