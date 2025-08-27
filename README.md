@@ -94,3 +94,10 @@ npm run dev
 - The countdown timer updates automatically to show the next prayer.
 
 - Enjoy the prayer cards with images for each prayer.
+
+
+## 🌐 Live Website
+
+You can view the deployed website here:  
+
+[Prayer Times Website](https://prayer-times-egypt.netlify.app/)
