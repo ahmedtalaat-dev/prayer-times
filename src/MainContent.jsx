@@ -203,7 +203,6 @@ export default function MainContent() {
               color: "black",
               fontSize: "25px",
               fontWeight: "600",
-              letterSpacing: "1px",
               backgroundColor: "white",
               px: 2,
               borderRadius: "6px",
