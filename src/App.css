@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  background-image: url(/images/background.webp) !important;
+  background-image: url(/images/background.webp);
   background-position: bottom;
   background-size: cover;
   min-height: 100vh;
@@ -16,3 +16,20 @@ body {
 * {
   color: white;
 }
+
+
+/* الموبايلات الصغيرة */
+@media (max-width: 576px) {  
+  .container  {
+    background: #0f2027;
+  }
+}
+
+/* الموبايلات الكبيرة & التابلت */
+@media (min-width: 577px) and (max-width: 768px) {  
+  .container  {
+    background: #0f2027;
+  }
+}
+
+
